@@ -1,0 +1,32 @@
+<!--Web Developer's Bootcamp Running Notes (TXT).--> 
+
+I. The Front-End
+    1. Introduction to Frontend
+        a. Frontend 
+            - This is the stuff you see when you access a website via web browser (HTML,CSS,JS)
+        b. The Holy Trinity of Frontend Development
+            - HTML
+                *HyperText Markup Language
+                *Defines the STRUCTURE of a Webpage.
+                *The "nouns".
+            - CSS
+                *Cascading Style Sheets
+                *Defines the STYLE of a Webpage.
+                *The "adjectives".
+            - JavaScript 
+                * Adds Logic and Interactivity to a Webpage.
+                * The actions or "verbs".
+    2. Intro to HTML
+            a. History
+                - HTML has been around since 1989/90 which allowed for the publishing/exchanging 
+                    of scientific/technical files.
+                - HTML allowed electronic linking of documents via Hyperlinks.
+            b. Objectives 
+                - Write simple HTML documents.
+                -Understand difference: Closing Vs Self-Closing Tags.
+                -Write tags w/ attributes.
+                -Use MDN () as a reference.
+                -Given an image, write the corresponding HTML.
+            c. The General Rule
+                Syntax: <tagName> Some Content </tagName>
+            
