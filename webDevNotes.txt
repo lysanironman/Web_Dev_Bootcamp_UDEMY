@@ -1,6 +1,8 @@
 <!--Web Developer's Bootcamp Running Notes (TXT).--> 
 
 I. The Front-End
+    2. Introduction to this Course
+<!-- This space is intentionally left blank. -->
     1. Introduction to Frontend
         a. Frontend 
             - This is the stuff you see when you access a website via web browser (HTML,CSS,JS)
@@ -16,6 +18,9 @@ I. The Front-End
             - JavaScript 
                 * Adds Logic and Interactivity to a Webpage.
                 * The actions or "verbs".
+        c. MDN 
+            - Mozilla Developer Network 
+                * To search google "MDN" <nameOfQuery>
     2. Intro to HTML
             a. History
                 - HTML has been around since 1989/90 which allowed for the publishing/exchanging 
