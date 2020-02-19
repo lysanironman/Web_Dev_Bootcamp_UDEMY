@@ -1,9 +1,9 @@
 <!--Web Developer's Bootcamp Running Notes (TXT).--> 
 
 I. The Front-End
-    2. Introduction to this Course
+    1. Introduction to this Course
 <!-- This space is intentionally left blank. -->
-    1. Introduction to Frontend
+    2. Introduction to Frontend
         a. Frontend 
             - This is the stuff you see when you access a website via web browser (HTML,CSS,JS)
         b. The Holy Trinity of Frontend Development
@@ -18,20 +18,48 @@ I. The Front-End
             - JavaScript 
                 * Adds Logic and Interactivity to a Webpage.
                 * The actions or "verbs".
-        c. MDN 
-            - Mozilla Developer Network 
-                * To search google "MDN" <nameOfQuery>
-    2. Intro to HTML
-            a. History
-                - HTML has been around since 1989/90 which allowed for the publishing/exchanging 
+    3. Intro to HTML
+        a. History
+            - HTML has been around since 1989/90 which allowed for the publishing/exchanging 
                     of scientific/technical files.
-                - HTML allowed electronic linking of documents via Hyperlinks.
-            b. Objectives 
-                - Write simple HTML documents.
-                -Understand difference: Closing Vs Self-Closing Tags.
-                -Write tags w/ attributes.
-                -Use MDN () as a reference.
-                -Given an image, write the corresponding HTML.
-            c. The General Rule
+            - HTML allowed electronic linking of documents via Hyperlinks.
+        b. Objectives 
+            - Write simple HTML documents.
+            - Understand difference: Closing Vs Self-Closing Tags.
+            - Write tags w/ attributes.
+            - Use MDN () as a reference.
+            - Given an image, write the corresponding HTML.
+        c. The General Rule
                 Syntax: <tagName> Some Content </tagName>
-            
+        d. MDN (Mozilla Developer Network)
+            - To search google "MDN" <nameOfQuery>
+        e. HTML Boilerplate/Comments
+            - <html> : The Root of an HTML Document. Required to utilize proper syntax.
+            - <head> : Provides metadata of an element. (Everything that is not seen)
+            - <body> : This is where all the visible elements will be placed so that the browser will   
+                display them for the user. 
+            - comments: Notation for HTML - <!-- Like this! --> to toggle on and off in VS code,
+                one can use the following shortcut: Ctrl + / to auto-assign comment.
+        f. Basic Tags
+            - <h1> to <h6>: Heading from Largest to Smallest. (Block Element)
+            - <p>: This tag is reserved for Paragraphs (Block Element)
+            - <STRONG> (Legacy<b>): Makes bold the text found between the opening and closing tags; Strength (Inline Element)
+            -<em> (Legacy<i>): Italicizes text found between opening/closing tags; Emphasis (Inline Element)
+        g. HTML Lists
+            -<ol>: Lists items numerically, starting from 1.
+            -<ul>: Lists items with bullet points.
+            -<li>: All list items MUST be wrapped in the <li></li> tags to be part of the list. 
+            -Nesting Lists: In order to successfully nest a list, new list opening (either ul or ol)must be found within one of 
+                the <li></li> elements present.
+        h. Quiz 1 - Lists: Ordered and Unordered
+        i. Divs and Spans
+            -Both: Allow for grouping data together. 
+            -<div>: A generic container. (Block Element)
+            -<span>: A generic container. (Inline Element)
+        j. HTML attributes
+            - Help us add additional information to our HTML code. 
+            - Key value pair: A tag and its attribute.
+            -Most Important attributes:
+                *src="": Used for image <img> tags
+                *href="": Used for Anchor <a> and Link <link>  tags; has a closing tag.  
+        
