@@ -61,5 +61,7 @@ I. The Front-End
             - Key value pair: A tag and its attribute.
             -Most Important attributes:
                 *src="": Used for image <img> tags
-                *href="": Used for Anchor <a> and Link <link>  tags; has a closing tag.  
+                *href="": Used for Anchor <a> and Link <link>  tags; has a closing tag.
+            -<img src="">
+            -<a href="">Content</a> (Inline Element)
         
