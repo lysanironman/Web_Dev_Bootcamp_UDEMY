@@ -54,14 +54,32 @@ I. The Front-End
         h. Quiz 1 - Lists: Ordered and Unordered
         i. Divs and Spans
             -Both: Allow for grouping data together. 
-            -<div>: A generic container. (Block Element)
-            -<span>: A generic container. (Inline Element)
+            -<div></div>: A generic container. (Block Element)
+            -<span></span>: A generic container. (Inline Element)
         j. HTML attributes
             - Help us add additional information to our HTML code. 
             - Key value pair: A tag and its attribute.
-            -Most Important attributes:
+            - Most Important attributes:
                 *src="": Used for image <img> tags
                 *href="": Used for Anchor <a> and Link <link>  tags; has a closing tag.
             -<img src="">
             -<a href="">Content</a> (Inline Element)
-        
+    4. Intermediate HTML
+        a. Objectives
+            - Write Valid HTML Tables
+            - Write validated HTML forms using <form>, <input>, <select>, and <label> tags
+        b. HTML Tables
+            -<table></table>: This tag allows for browsers to format a table
+            -<tr></tr>: Table Row
+            -<td></td>: Table data
+                * BAD PRACTICE: Styling within HTML file, BUT for the purpose of coherence.
+            -<th></th>: Table Heading
+            -<thead></thead>: Table Heading elements go within this (Optional Tag)
+            -<tbody></tbody>: Table Heading elements go within this (Optional Tag)
+        c. HTML Forms
+            - Forms are utilized to gather User Data.
+            -<form></form>: Container for all the different kinds of inputs a Web Dev could be asking users for.
+                *action attribute=Defines where the data is going to be sent to
+                *method attribute=the kind of HTTP request (i.e. "post")
+            -<input>:
+            -<label></label>:
