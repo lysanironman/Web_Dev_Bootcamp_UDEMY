@@ -81,5 +81,19 @@ I. The Front-End
             -<form></form>: Container for all the different kinds of inputs a Web Dev could be asking users for.
                 *action attribute=Defines where the data is going to be sent to
                 *method attribute=the kind of HTTP request (i.e. "post")
-            -<input>:
-            -<label></label>:
+            -<input>: There are many types of inputs (here are a short list of some of them)
+                *"text": Input that allows user to type in text information
+                *"password": Input that hides what the user is typing
+                *"date": dropdown menu that allows one to choose a date.
+                *"file": Creates a choose file button
+                *"checkbox": Creates a checkable box.
+            -<label></label>: This is a way to give our inputs descriptive labels.
+                *for="labelName" attribute is utilized within the <label> tag.
+                *id="labelName' attribute is utilized within the <input> tag.
+            <!-- Note that the above for="",id="" helps for people using visual impairment software. -->
+        d. Dropdown and Radio Buttons
+            -radio="": Cannot be unchecked. Allows User to choose ONE choice.
+            -checkbox="": Allows User to choose multiple choices.
+            -<select></select>: Creates an Empty Dropdown menu.
+            -<option></option>: Creates an Element that is present in the <select> menu.
+            
