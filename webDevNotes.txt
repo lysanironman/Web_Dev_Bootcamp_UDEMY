@@ -96,4 +96,24 @@ I. The Front-End
             -checkbox="": Allows User to choose multiple choices.
             -<select></select>: Creates an Empty Dropdown menu.
             -<option></option>: Creates an Element that is present in the <select> menu.
-            
+    5. Introduction to CSS
+        a. Objectives:
+            - Define and Follow the "General Rule" of CSS.
+            -Successfully include CSS in HTML Files.
+            -Select CSS elements via tag name, id, or class.
+            -Style Elements with basic properties like color and background.
+            -Use Chrome CSS Inspector to debug HTML/CSS.
+        b. Intro to CSS
+            -CSS stands for Cascading Style sheets. 
+            - CSSZenGarden.com
+            -general rule: 
+                Syntax:
+                selector {
+                    property: value;
+                    anotherProperty: value;
+                }
+        c. CSS Colors
+            - Simple Colors: CSS has 147 colors built into it.
+            - Hexadecimal: Instead of Base-10 (0-9), this system uses Base-16 (0-15).
+            - RGB: Red-Green-Blue; Values range from 0-225.
+            -RGBA: Similar to RGB except it allows for an alpha value that manipulates text transparency. 
