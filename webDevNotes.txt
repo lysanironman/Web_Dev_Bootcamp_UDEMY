@@ -117,3 +117,11 @@ I. The Front-End
             - Hexadecimal: Instead of Base-10 (0-9), this system uses Base-16 (0-15).
             - RGB: Red-Green-Blue; Values range from 0-225.
             -RGBA: Similar to RGB except it allows for an alpha value that manipulates text transparency. 
+        d. Background and Border
+            -Background: property selects for a specific color for the background of the selector.
+            -Border: property that defines an outer layer around text that is visible and separate from margin/padding.
+        e. CSS Selectors
+            -Element: That actual tag.
+            -id:
+            -class:
+

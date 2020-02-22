@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://miro.medium.com/max/3600/1*1fsR4fVh23IV-IOdsI5Tyw.jpeg");
+    color: rgb(238, 82, 82);
+    text-shadow: 2px 1px 5px white;
+   
+}
+h1 {
+    margin: 16px 0 40px 0;
+}
+.centeredText {
+    text-align: center;
+}
+nav {
+    background: rgb(221, 207, 207);
+    margin: 0px;
+    padding: 5px;
+    }
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 5px;
+    padding: 2px;
+    font-weight: bolder;
+}
+a:hover {
+    border: 1px inset blanchedalmond;
+    padding: 2px;
+
+}
