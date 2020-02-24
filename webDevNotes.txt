@@ -121,7 +121,15 @@ I. The Front-End
             -Background: property selects for a specific color for the background of the selector.
             -Border: property that defines an outer layer around text that is visible and separate from margin/padding.
         e. CSS Selectors
-            -Element: That actual tag.
-            -id:
-            -class:
+            -Element: That actual tag. Selects ALL instances of that element.
+            -id: (#) It gives an element a specific id. Two elements CANNOT share the same id on a single HTML file.
+            -class: (.) Selects all elements with the given class attribute name.
+        f. More Advanced Selectors
+            -*: Selects ALL elements in an HTML file. (*)
+            -Descendant: Selects all children of a specific type under a parent (parent child)
+            -Adjacent: Selects siblings of a selector that is chosen first (sibling + sibling)
+            -Attribute: Selects the specific attribute of a given selector (Selector[Attribute])
+            -nth-of-type(): Selects the nth element of a specific type per group, NOT every nth element per HTML
+
+            
 

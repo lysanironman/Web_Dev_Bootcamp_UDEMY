@@ -34,3 +34,8 @@ a:hover {
     padding: 2px;
 
 }
+#solidRed {
+    background: red;
+    color: white;
+    margin: 56px;
+}

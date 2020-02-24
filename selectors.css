@@ -1,0 +1,25 @@
+/* Using the "*" will apply styling to all elements on a page. */
+* {
+    border: solid 1px lightgray;
+}
+
+/* Descendant Selector (parent child) follow the order they are presented so that the child of the parent is edited only.  */
+li a {
+    color: red;
+}
+
+/* Adjacent Selector (Sibling + Sibling) allows one to select elements that follow 
+a specific element rather than depending on their parent. */
+h4 + ul {
+    border: 7px purple dotted;
+}
+
+/* Attribute Selector (selector[attribute]) allow one to select a specific portion of an entire element tag */
+a[href="http://www.google.com"] {
+    background-color: lightskyblue;
+}
+
+/* nth-of-type() Selector allows one to assign styles to a specific element at every nth element of that type.  */
+li:nth-of-type(3) {
+    border: 4px orange inset;
+}
